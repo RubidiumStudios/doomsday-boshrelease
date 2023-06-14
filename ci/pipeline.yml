@@ -219,7 +219,7 @@ jobs:
     - get: doomsday
       trigger: true
       params:
-        globs: [doomsday-linux]
+        globs: [doomsday-linux-amd64]
   - task: update-doomsday
     config:
       platform: linux
