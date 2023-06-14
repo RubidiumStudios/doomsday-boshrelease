@@ -239,7 +239,7 @@ jobs:
         REPO_OUT:    pushme
         BLOB_DIR:    doomsday
         BLOB_NAME:   doomsday
-        BLOB_BINARY: doomsday-linux
+        BLOB_BINARY: doomsday-linux-amd64
         BLOB_DESTINATION: doomsday/doomsday
         BLOB_CLEANUP:     doomsday/doomsday
         AWS_ACCESS_KEY: (( grab meta.aws.access ))
