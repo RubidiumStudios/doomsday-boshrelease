@@ -12,6 +12,7 @@ meta:
     ca:       ((thunder-dome.ca-certificate))
 
   aws:
+    bucket:   doomsday-pipeline
     access:   ((aws.access_key_id))
     secret:   ((aws.secret_access_key))
 
