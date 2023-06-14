@@ -1,0 +1,29 @@
+---
+meta:
+  name:    doomsday-boshrelease
+  release: Doomsday Bosh Release
+  target:  pipes/cloudfoundry-community
+  url:     https://pipes.scalecf.com
+
+  bosh:
+    url:      ((thunder-dome.url))
+    username: ((thunder-dome.username))
+    password: ((thunder-dome.password))
+    ca:       ((thunder-dome.ca-certificate))
+
+  aws:
+    access:   ((aws.access_key_id))
+    secret:   ((aws.secret_access_key))
+
+  git:
+    name:         "Cloudfoundry Community CI Bot"
+    email:        "ci@cloudfoundry-community.org"
+
+  github:
+    owner:        RubidiumStudios
+    source-repo:  doomsday
+    repo:         doomsday-boshrelease
+    username:     ((github.username))
+    branch:       main
+    access_token: ((github.access_token_rw))
+
