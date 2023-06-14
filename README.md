@@ -10,7 +10,7 @@ the information required for maintainers to take action.
 
 A sample manifest is available at `manifests/doomsday.yml`. It contains example
 configuration for secret backends, the doomsday server, and notifications. For a
-more thorough configuration example, see the docs [here](https://github.com/doomsday-project/doomsday/blob/master/docs/ddayconfig.yml) on the doomsday repo.
+more thorough configuration example, see the docs [here](https://github.com/doomsday-project/doomsday/blob/main/docs/ddayconfig.yml) on the doomsday repo.
 
 
 After setting up your configuration in the manifest, use BOSH to deploy doomsday. 

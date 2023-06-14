@@ -155,7 +155,7 @@ jobs:
         RELEASE_ROOT: gh
         REPO_OUT:     pushme
         NOTIFICATION_OUT: notifications
-        BRANCH:         master
+        BRANCH:         main
         GITHUB_OWNER:   (( grab meta.github.owner ))
         GIT_EMAIL:      (( grab meta.git.email ))
         GIT_NAME:       (( grab meta.git.name ))
@@ -244,7 +244,7 @@ jobs:
         BLOB_CLEANUP:     doomsday/doomsday
         AWS_ACCESS_KEY: (( grab meta.aws.access ))
         AWS_SECRET_KEY: (( grab meta.aws.secret ))
-        BRANCH:         master
+        BRANCH:         main
   - put: git
     params:
       rebase: true
